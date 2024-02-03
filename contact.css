@@ -19,6 +19,8 @@
 
 .navbar .container .nav1{
     display: flex;
+     margin-left: 60px;
+
 }
 
 .navbar .container .nav1 .icon img{
