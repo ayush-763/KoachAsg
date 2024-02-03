@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.navbar{
+    position: relative;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+.navbar .container{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar .container .nav1{
+    display: flex;
+}
+
+.navbar .container .nav1 .icon img{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar .container .nav1 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar .container .nav1 li{
+    list-style: none;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.navbar .container .nav1 li a{
+    color:#000;
+    text-decoration: none;
+}
+
+.navbar .container .nav1 li a:hover{
+    cursor: pointer;
+    color: #0B60B0;
+}
+
+.navbar .container .nav2{
+    display: flex;
+}
+
+.navbar .container .nav2 select{
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+    /* border:solid #0B60B0 */
+    border: none;
+    color:#0B60B0;
+}
+
+.navbar .container .nav2 .login-signup button:hover{
+    cursor:pointer;
+}
+
+.navbar .container .nav2 .login-signup{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.navbar .container .nav2 .login-signup .btn1{
+    padding: 15px 30px;
+    border:solid;
+    color:#0B60B0;
+    font-weight:700;
+    font-size: medium;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0px 25px;
+}
+
+.navbar .container .nav2 .login-signup .btn2{
+    padding: 15px 30px;
+    border:solid;
+    color:#fff;
+    font-weight:700;
+    font-size: medium;
+    background-color: #0B60B0;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.heading{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    color:#0B60B0;
+}
+
+.contact .container{
+    display: flex;
+    max-width: 100%;
+    padding: 30px 35px;
+}
+
+.contact .container .left{
+    /* float: left; */
+    width: 40%;
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.contact .container .left .ques h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact .container .left .ques p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact .container .left h3{
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+.contact .container .left .img-box img{
+    height: 300px;
+    width: 400px; 
+}
+
+.contact .container .right{
+    /* float: right;
+    display: flex;
+    flex-direction: column; */
+    text-align:  center;
+    width: 780px;
+    margin-right: 10px;
+    padding: 30px;
+    box-shadow: 2px 1px 10px rgba(0,0,0,0.1);   
+    border-radius: 20px;
+}
+
+.contact .container .right h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact .container .right .ip{
+    display: flex;
+    margin-left: 14%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact .container .right .ip input{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    width: 75%;
+    font-size: 20px;
+    border-radius: 22px;
+    outline: none;
+    border:solid #0B60B0;
+    color:#0B60B0;
+
+}
+
+.contact .container .right .ip input::placeholder{
+    color:#0B60B0;
+
+}
+
+.contact .container .right .ip select{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 22px;
+    outline: none;
+    border:solid #0B60B0;
+    color:#0B60B0;
+}
+
+.footer{
+    background: #ebebeb;
+}
+
+.footer .container{
+    position: relative;
+    box-shadow: 3px 0px 4px rgba(0,0,0,0.1);
+    padding-top: 30px;
+    padding-left: 65px;
+    padding-bottom: 70px;
+    display: flex;
+    z-index: 2;
+}
+
+.footer .container .c-details{
+    max-width: 30%;
+}
+
+.footer .container .c-details h2{
+    font-size: 30px;
+    color:#0B60B0;
+    padding-bottom: 20px;
+}
+
+.footer .container .c-details p{
+    font-size: 18px;
+}
+
+.footer .container .pages{
+    display: flex;
+    margin-left: 400px;
+}
+
+.footer .container .pages .page{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer .container .pages .page h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer .container .pages .page a{
+    font-size: 14px;
+    margin: 5px 0px;
+    cursor:pointer;
+}
