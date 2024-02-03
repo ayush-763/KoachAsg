@@ -276,7 +276,7 @@
 
 .footer .container .pages{
     display: flex;
-    margin-left: 160px;
+    margin-left: 400px;
 }
 
 .footer .container .pages .page{
@@ -287,11 +287,12 @@
 }
 
 .footer .container .pages .page h4{
-    font-size: 24px;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .footer .container .pages .page a{
-    font-size: 20px;
+    font-size: 14px;
     margin: 5px 0px;
     cursor:pointer;
 }
